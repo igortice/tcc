@@ -16,6 +16,9 @@
             = link_to_in_li 'Articles', articles_path
         %h3.text-muted Getting Started Rails
       .row.marketing
+        - if flash.present?
+          .alert.alert-info
+            = flash[:notice]
         = yield
       %footer.footer
         %p © 2016 Company, Inc.
