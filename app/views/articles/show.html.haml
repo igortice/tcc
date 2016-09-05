@@ -1,0 +1,14 @@
+.panel.panel-default
+  .panel-heading
+    %h2 Show article
+  .panel-body
+    %p
+      %b Title:
+      = @article.title
+    %p
+      %b Text:
+      = @article.text
+  .panel-footer
+    = link_to 'Edit', edit_article_path(@article)
+    \|
+    = link_to 'Back', articles_path

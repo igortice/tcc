@@ -35,6 +35,11 @@ gem 'bootstrap-sass', '~> 3.3.6'
 
 gem 'haml-rails'
 
+gem 'bootstrap_form'
+
+gem 'pry-rails'
+gem 'awesome_print'
+
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
