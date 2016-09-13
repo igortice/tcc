@@ -45,9 +45,21 @@ gem 'awesome_print'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
-group :development, :test do
-  # Call 'byebug' anywhere in the code to stop execution and get a debugger console
-  gem 'byebug', platform: :mri
+group :test do
+  # Rspec methods
+  gem 'rspec-rails'
+  
+  # Cucumber
+  gem 'cucumber-rails', :require => false
+  
+  # Database clear
+  gem 'database_cleaner'
+  
+  # Selenium
+  gem 'selenium-webdriver'
+  
+  # Faker dados
+  gem 'faker'
 end
 
 group :development do
