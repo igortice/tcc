@@ -10,6 +10,6 @@ Funcionalidade: Articles
 
   Cenário: Criar novo article
     Dado que confirmei e estou na página Articles
-      E clico no link "New Article"
-      Então devo ser solicitado a colocar usuario e senha para fazer tal procedimento
+    E clico no link "New Article" com credenciais
+    Então devo ser redirecionado para página "Articles New"
 
