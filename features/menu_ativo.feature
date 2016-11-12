@@ -11,5 +11,3 @@ Funcionalidade: Menu Ativo
       | pagina      | menu        |
       | Home        | Home        |
       | Articles    | Articles    |
-
-

@@ -14,7 +14,7 @@ def get_path(name)
   case name
     when 'Root Path', 'Home'
       root_path
-    when 'Articles Path'
+    when 'Articles Path', 'Articles'
       articles_path
     when 'Articles New'
       new_article_path
